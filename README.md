@@ -18,12 +18,12 @@ The dataset used for training and evaluation is the [DeepGlobe Land Cover Classi
 ### 1. **DeepLabV3 with ResNet101 Backbone (Pretrained Weights)**
 
 - **Test Metrics:**
-    - Accuracy: 94.85%
-    - F1-Score: 81.98%
-    - IoU: 71.32%
-    - Loss: 0.374
-    - Precision: 81.98%
-    - Recall: 81.98%
+    - Accuracy: 93.91%
+    - F1-Score: 78.68%
+    - IoU: 67.97%
+    - Loss: 0.436
+    - Precision: 78.68%
+    - Recall: 78.68%
 
     ![DeepLabV3 ResNet101 Demo](image_result/deeplabv3_resnet101_demo.png)
     ![DeepLabV3 ResNet101 Log](image_result/deeplabv3_resnet101_log.png)
@@ -57,12 +57,13 @@ The dataset used for training and evaluation is the [DeepGlobe Land Cover Classi
 ### 4. **DeepLabV3 with ResNet101 Backbone (Transfer Learning)**
 
 - **Test Metrics:**
-    - Accuracy: 93.91%
-    - F1-Score: 78.68%
-    - IoU: 67.97%
-    - Loss: 0.436
-    - Precision: 78.68%
-    - Recall: 78.68%
+
+    - Accuracy: 94.85%
+    - F1-Score: 81.98%
+    - IoU: 71.32%
+    - Loss: 0.374
+    - Precision: 81.98%
+    - Recall: 81.98%
 
     ![DeepLabV3 ResNet101 Transfer Learning Demo](image_result/deeplabv3_resnet_101_transferlearning_demo.png)
     ![DeepLabV3 ResNet101 Transfer Learning Log](image_result/deeplabv3_resnet101_transferlearning_log.png)
